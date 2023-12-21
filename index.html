@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="start">
+        <button class="startBtn">Start</button>
+    </div>
+
+    <div class="displayContainer hidden">
+        <div class="quiz">
+            <h2 class="question"><!--Question--></h2>
+        </div>
+        <div class="ans">
+            <!--Answers -->
+        </div>
+        <div class="prenextBtn">
+            <button class="preBtn">Previous</button>
+            <button class="nextBtn">Next</button>
+        </div>
+        <div class="result">
+            <button class="correctAns">OK! Correct Answer.</button>
+            <button class="wrongAns">Takecare! Wrong Answer.</button>
+        </div>
+        <div>
+
+            <button class="restart hidden" onclick="window.location.reload();">Restart</button>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
